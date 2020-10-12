@@ -1,0 +1,23 @@
+{
+  "name": "imagemin_by_gulp",
+  "version": "1.0.0",
+  "description": "学习 gulp 的过程中发现图片用 gulp-imagemin 压缩后质量浮动也不大，但是效果很明显，所以这边做一个简单工具，用 gulp 来压缩图片。有机会研究一下怎么在网页上实现这个功能",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trcat/imagemin_by_gulp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trcat/imagemin_by_gulp/issues"
+  },
+  "homepage": "https://github.com/trcat/imagemin_by_gulp#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0"
+  }
+}
