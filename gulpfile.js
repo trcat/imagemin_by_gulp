@@ -1,7 +1,7 @@
 const { src, dest } = require("gulp");
 const imagemin = require("gulp-imagemin");
 
-module.exports = function () {
+exports.default = function () {
   return src(["imageSrc/*", "imageSrc/**/*"])
     .pipe(
       imagemin([
